@@ -29,7 +29,7 @@ function postContactsController(req,res){
         isPublic:false
     })
     return res.send({
-        name:contacts
+        name:contacts 
     })
 }
 app.get('/contacts', getContactsController)
